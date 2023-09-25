@@ -12,6 +12,7 @@ void randomizeString(char* array, int size) {
 	for (int i = 0; i < size; ++i) {
 		array[i] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"[rand() % 36];
 
+
 		if (i == size - 1) {
 			array[i] = '\0';
 		}
